@@ -2,7 +2,7 @@
 
 Probabilities from classification models can have two problems: 
 
-1. Miscalibration: A p of .9 often doesn't mean a 90% of chance of 1 (assuming a dichotomous y). (You can calibrate it using isotonic regression.)
+1. Miscalibration: A p of .9 often doesn't mean a 90% chance of 1 (assuming a dichotomous y). (You can calibrate it using isotonic regression.)
 
 2. Optimal cut-offs: For multi-class classifiers, we do not know what probability value will maximize the accuracy or F1 score. Or any metric for which you need to trade-off between FP and FN.
 
